@@ -1,0 +1,31 @@
+{
+  "files": {
+    "main.js": "/presento/static/js/main.e7ac2f3b.js",
+    "static/media/hero-bg.jpg": "/presento/static/media/hero-bg.81d903e58564b0471746.jpg",
+    "static/media/portfolio-7.jpg": "/presento/static/media/portfolio-7.14e52d8ae327742d1f60.jpg",
+    "static/media/blog-4.jpg": "/presento/static/media/blog-4.4a0359cc796f9c0e14b9.jpg",
+    "static/media/portfolio-3.jpg": "/presento/static/media/portfolio-3.fc3013b045287f5e71cc.jpg",
+    "static/media/portfolio-4.jpg": "/presento/static/media/portfolio-4.d86509ce9e5506433aef.jpg",
+    "static/media/blog-1.jpg": "/presento/static/media/blog-1.97a1a61032fc6b5b3c4c.jpg",
+    "static/media/portfolio-1.jpg": "/presento/static/media/portfolio-1.5b6dea547071eb0d14b3.jpg",
+    "static/media/portfolio-5.jpg": "/presento/static/media/portfolio-5.2dcd6723c4f2067cb10a.jpg",
+    "static/media/portfolio-2.jpg": "/presento/static/media/portfolio-2.c720b9c8d5246edc847c.jpg",
+    "static/media/portfolio-9.jpg": "/presento/static/media/portfolio-9.561bb1f26fc76bc36f6c.jpg",
+    "static/media/testimonials-2.jpg": "/presento/static/media/testimonials-2.4b41e5c09698f7f4f9f9.jpg",
+    "static/media/team-2.jpg": "/presento/static/media/team-2.b2008acdf74612d89b8f.jpg",
+    "static/media/team-1.jpg": "/presento/static/media/team-1.30c859cd9a02bb5dcc9a.jpg",
+    "static/media/testimonials-1.jpg": "/presento/static/media/testimonials-1.54f2a70e2804cdf6f09d.jpg",
+    "static/media/team-3.jpg": "/presento/static/media/team-3.ca581ae1628e295ec2a0.jpg",
+    "static/media/team-4.jpg": "/presento/static/media/team-4.525dee063b26d6a44d1d.jpg",
+    "static/media/portfolio-6.jpg": "/presento/static/media/portfolio-6.c6b9e1909c9c64775807.jpg",
+    "static/media/testimonials-5.jpg": "/presento/static/media/testimonials-5.8732aa377888dc5873fb.jpg",
+    "static/media/testimonials-4.jpg": "/presento/static/media/testimonials-4.58081dc8c31bc0e1cb6c.jpg",
+    "static/media/testimonials-3.jpg": "/presento/static/media/testimonials-3.bec51ce16f238c7ec7b1.jpg",
+    "static/media/portfolio-8.jpg": "/presento/static/media/portfolio-8.0d2f076b80c33a7e0269.jpg",
+    "index.html": "/presento/index.html",
+    "main.e7ac2f3b.js.map": "/presento/static/js/main.e7ac2f3b.js.map"
+  },
+  "entrypoints": [
+    "static/js/main.e7ac2f3b.js"
+  ]
+}
