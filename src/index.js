@@ -1,17 +1,16 @@
-import {  BrowserRouter as Router, } from 'react-router-dom';
 import React from 'react';
 import ReactDOM from 'react-dom/client';
+import { BrowserRouter } from 'react-router-dom';
 import App from './App';
 import ThemeContextProvider from './context/themeContext';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-      <Router>
         <ThemeContextProvider>
-
+      <BrowserRouter>
     <App />
+      </BrowserRouter>
         </ThemeContextProvider>
-      </Router>
   </React.StrictMode>
 );

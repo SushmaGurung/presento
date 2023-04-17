@@ -18,10 +18,10 @@ function Team() {
                 <div className="member-img">
                   <img src={tdata.profile} className="img-fluid" alt="" />
                   <div className="social">
-                    <a href=""><i className="bi bi-twitter"></i></a>
-                    <a href=""><i className="bi bi-facebook"></i></a>
-                    <a href=""><i className="bi bi-instagram"></i></a>
-                    <a href=""><i className="bi bi-linkedin"></i></a>
+                    <a href="https://twitter.com/"><i className="bi bi-twitter"></i></a>
+                    <a href="https://www.facebook.com/"><i className="bi bi-facebook"></i></a>
+                    <a href="https://www.instagram.com/"><i className="bi bi-instagram"></i></a>
+                    <a href="https://www.linkedin.com/"><i className="bi bi-linkedin"></i></a>
                   </div>
                 </div>
                 <div className="member-info">

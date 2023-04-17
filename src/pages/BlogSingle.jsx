@@ -34,14 +34,14 @@ function BlogSingle() {
               </div>
 
               <h2 className="entry-title">
-                <a href="blog-single.html">{bdata.title}</a>
+                <Link to="/blog:id">{bdata.title}</Link>
               </h2>
 
               <div className="entry-meta">
                 <ul>
-                  <li className="d-flex align-items-center"><i className="bi bi-person"></i> <a href="blog-single.html">{bdata.name}</a></li>
-                  <li className="d-flex align-items-center"><i className="bi bi-clock"></i> <a href="blog-single.html"><time datetime="2020-01-01">{bdata.date}</time></a></li>
-                  <li className="d-flex align-items-center"><i className="bi bi-chat-dots"></i> <a href="blog-single.html">{bdata.comments}</a></li>
+                  <li className="d-flex align-items-center"><i className="bi bi-person"></i> <Link to="/blog:id">{bdata.name}</Link></li>
+                  <li className="d-flex align-items-center"><i className="bi bi-clock"></i> <Link to="/blog:id"><time datetime="2020-01-01">{bdata.date}</time></Link></li>
+                  <li className="d-flex align-items-center"><i className="bi bi-chat-dots"></i> <Link to="/blog:id">{bdata.comments}</Link></li>
                 </ul>
               </div>
 
@@ -80,44 +80,44 @@ function BlogSingle() {
               <h3 className="sidebar-title">Categories</h3>
               <div className="sidebar-item categories">
                 <ul>
-                  <li><a href="#">General <span>(25)</span></a></li>
-                  <li><a href="#">Lifestyle <span>(12)</span></a></li>
-                  <li><a href="#">Travel <span>(5)</span></a></li>
-                  <li><a href="#">Design <span>(22)</span></a></li>
-                  <li><a href="#">Creative <span>(8)</span></a></li>
-                  <li><a href="#">Educaion <span>(14)</span></a></li>
+                  <li><a href="/#">General <span>(25)</span></a></li>
+                  <li><a href="/#">Lifestyle <span>(12)</span></a></li>
+                  <li><a href="/#">Travel <span>(5)</span></a></li>
+                  <li><a href="/#">Design <span>(22)</span></a></li>
+                  <li><a href="/#">Creative <span>(8)</span></a></li>
+                  <li><a href="/#">Educaion <span>(14)</span></a></li>
                 </ul>
               </div>
 
               <h3 className="sidebar-title">Recent Posts</h3>
               <div className="sidebar-item recent-posts">
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-1.jpg" alt=""/>
-                  <h4><a href="blog-single.html">Nihil blanditiis at in nihil autem</a></h4>
+                  <img src="../images/blog/blog-recent-1.jpg" alt=""/>
+                  <h4><Link to="/blog:id">Nihil blanditiis at in nihil autem</Link></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-2.jpg" alt=""/>
-                  <h4><a href="blog-single.html">Quidem autem et impedit</a></h4>
+                  <img src="../images/blog/blog-recent-2.jpg" alt=""/>
+                  <h4><Link to="/blog:id">Quidem autem et impedit</Link></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-3.jpg" alt=""/>
-                  <h4><a href="blog-single.html">Id quia et et ut maxime similique occaecati ut</a></h4>
+                  <img src="../images/blog/blog-recent-3.jpg" alt=""/>
+                  <h4><Link to="/blog:id">Id quia et et ut maxime similique occaecati ut</Link></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-4.jpg" alt=""/>
-                  <h4><a href="blog-single.html">Laborum corporis quo dara net para</a></h4>
+                  <img src="../images/blog/blog-recent-4.jpg" alt=""/>
+                  <h4><Link to="/blog:id">Laborum corporis quo dara net para</Link></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
                 <div className="post-item clearfix">
-                  <img src="assets/img/blog/blog-recent-5.jpg" alt=""/>
-                  <h4><a href="blog-single.html">Et dolores corrupti quae illo quod dolor</a></h4>
+                  <img src="../images/blog/blog-recent-5.jpg" alt=""/>
+                  <h4><Link to="/blog:id">Et dolores corrupti quae illo quod dolor</Link></h4>
                   <time datetime="2020-01-01">Jan 1, 2020</time>
                 </div>
 
@@ -126,17 +126,17 @@ function BlogSingle() {
               <h3 className="sidebar-title">Tags</h3>
               <div className="sidebar-item tags">
                 <ul>
-                  <li><a href="#">App</a></li>
-                  <li><a href="#">IT</a></li>
-                  <li><a href="#">Business</a></li>
-                  <li><a href="#">Mac</a></li>
-                  <li><a href="#">Design</a></li>
-                  <li><a href="#">Office</a></li>
-                  <li><a href="#">Creative</a></li>
-                  <li><a href="#">Studio</a></li>
-                  <li><a href="#">Smart</a></li>
-                  <li><a href="#">Tips</a></li>
-                  <li><a href="#">Marketing</a></li>
+                  <li><a href="/#">App</a></li>
+                  <li><a href="/#">IT</a></li>
+                  <li><a href="/#">Business</a></li>
+                  <li><a href="/#">Mac</a></li>
+                  <li><a href="/#">Design</a></li>
+                  <li><a href="/#">Office</a></li>
+                  <li><a href="/#">Creative</a></li>
+                  <li><a href="/#">Studio</a></li>
+                  <li><a href="/#">Smart</a></li>
+                  <li><a href="/#">Tips</a></li>
+                  <li><a href="/#">Marketing</a></li>
                 </ul>
               </div>
 

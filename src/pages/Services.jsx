@@ -2,7 +2,7 @@ import { serviceData } from "./data/serviceData"
 
 const Services = () => {
   return (
-    <section  className="services section-bg ">
+    <section id="services" className="services section-bg ">
       <div className="container" >
 
         <div className="section-title">
@@ -17,7 +17,7 @@ const Services = () => {
           <div className="col-md-6" key={sdata.id}>
             <div className="icon-box"  data-aos-delay="100">
               <i className={sdata.icon}></i>
-              <h4><a href="#">{sdata.title}</a></h4>
+              <h4><a href="/#">{sdata.title}</a></h4>
               <p>{sdata.desc}</p>
             </div>
           </div>

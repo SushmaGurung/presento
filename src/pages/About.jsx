@@ -13,7 +13,7 @@ function About() {
                                 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
                                 dolore magna aliqua. Duis aute irure dolor in reprehenderit
                             </p>
-                            <a href="#" className="about-btn"><span>About us</span> <i className="bx bx-chevron-right"></i></a>
+                            <a href="/#" className="about-btn"><span>About us</span> <i className="bx bx-chevron-right"></i></a>
                         </div>
                     </div>
                     <div className="col-xl-7 d-flex align-items-stretch">

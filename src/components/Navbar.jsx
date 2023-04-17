@@ -13,11 +13,11 @@ function Navbar({themes}) {
             <header id="header" className="fixed-top d-flex align-items-center" style={state.darktheme? themes.dark:themes.light}  >
                 <div className="container d-flex align-items-center">
                     <h1 className="logo me-auto"><Link to="/" style={state.darktheme? themes.dark : themes.light}>Presento<span>.</span></Link></h1>
-                    <a href="index.html" className="logo me-auto"><img src="../assets/img/logo.png" alt="" /></a>
+                    {/* <a href="index.html" className="logo me-auto"><img src="../../assets/img/logo.png" alt="" /></a> */}
 
                     <nav id="navbar" className="navbar  order-last order-lg-0"  >
                         <ul>
-                            <li><Link className="nav-link  active" to="/">Home</Link></li>
+                            <li><a href="#hero" className="nav-link  active" >Home</a></li>
                             <li><a className="nav-link"style={state.darktheme? themes.dark : themes.light} href="#about">About</a></li>
                             <li><a className="nav-link "style={state.darktheme? themes.dark : themes.light} href="#services">Services</a></li>
                             <li><a className="nav-link  "style={state.darktheme? themes.dark : themes.light} href="#portfolio">Portfolio</a></li>

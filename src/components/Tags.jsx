@@ -9,26 +9,26 @@ function Tags({themes}) {
 
       <ul className="nav nav-tabs row d-flex">
         <li className="nav-item col-3">
-          <a className="nav-link active show">
+          <a className="nav-link active show" href='/#'>
             <i className="ri-gps-line"></i>
             <h4 className="d-none d-lg-block">Modi sit est dela pireda nest</h4>
           </a>
         </li>
         <li className="nav-item col-3">
-          <a className="nav-link" >
+          <a className="nav-link" href='/#' >
             <i className="ri-body-scan-line"></i>
             
             <h4 className="d-none d-lg-block"  style={state.darktheme?themes.dark:themes.light}>Unde praesenti mara setra le</h4>
           </a>
         </li>
         <li className="nav-item col-3">
-          <a className="nav-link" >
+          <a className="nav-link" href='/#' >
             <i className="ri-sun-line"></i>
             <h4 className="d-none d-lg-block" style={state.darktheme?themes.dark:themes.light}>Pariatur explica nitro dela</h4>
           </a>
         </li>
         <li className="nav-item col-3">
-          <a className="nav-link" >
+          <a className="nav-link"href='/#' >
             <i className="ri-store-line"></i>
             <h4 className="d-none d-lg-block" style={state.darktheme?themes.dark:themes.light}>Nostrum qui dile node</h4>
           </a>
